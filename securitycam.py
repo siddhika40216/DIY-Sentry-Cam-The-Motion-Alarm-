@@ -41,11 +41,11 @@ while webcam.isOpened():
     
     cv2.imshow("Security Camera ", thresh)
     
-    # Step 9: Update the reference frame
+    # Step 8: Update the reference frame
     # The current frame becomes the 'old' frame for the next loop iteration
     img1 = img2
 
-    # Step 10: Check for keyboard input
+    # Step 9: Check for keyboard input
     # If the user presses 'q' (ASCII 113), the loop ends
     if cv2.waitKey(15) == 113:
         break
